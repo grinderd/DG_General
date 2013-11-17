@@ -1,0 +1,25 @@
+"""
+This is file with Financial functions which are useful in many of my project
+
+Author: David Grinder
+
+Date: 11/17/2013
+
+"""
+
+#Payment Calculate Function
+
+def PmtCalc(rate,term,amtfin):
+	#Calculates the payment amount for an interest rate, term, and amount financed
+	#Source: Excel Help file for PMT
+	pmt = 
+	
+
+#Calculate Yield on an account using cash flows
+
+def YieldCalc(CF,term,CF_0):
+	#Calculates the IRR on a set of cash flows given a term
+	#The CF is a list with the appropriate cash flows.  If a single value is submitted, it is assumed that the payment repeats for every term
+	#CF_0 is the negative amount of cash flow in period 0. This is the amount paid in period zero.  Amounts received should be entered as neative
+	#term is the number of periods which are accounted for in the cash flow.
+
