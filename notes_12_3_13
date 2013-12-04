@@ -1,0 +1,60 @@
+#Code Notes from Meetup 12-3-13
+
+conda create -n hupy anadonda --yes #command to set up new python environment with anaconda tools
+
+which python # where is my python located -unix command
+
+ipython --better because it does blocks of code more easily
+
+ipython notebook --webbased kinda thing - share the code
+
+Python functions:
+
+dir() prints all the functions etc. associated with a function
+
+pycharm - IDE for Python
+
+Everything in Python is an object -- find the reference to object using id() function
+
+variables can be reassigned to be a different type
+
+long number 
+  -Long integer is a type for large numbers
+
+list vs tuple - list mutable, tuple not muteable/changeable
+
+keys to dictionaries must be immutable
+
+.sort() - in place sort
+
+.insert(position, object)
+
+.get() -- Gets elements out of dictionary
+
+del word deletes object
+
+Triple quotes in functions (doc string) will pop out when the help function is used on customer functions
+
+raise allows errors to flow 
+
+except - error messages function -- good write up about exception handling
+
+finally allows code to run by 
+
+eval command to execute function as a value in a dictionary/other functions
+
+::Code Useage/storeage::
+
+module just has a bunch of code
+package has a special file in it
+__init__.py --necessary to be package 
+  Code in this file run everytime the package is loaded
+  
+  
+corbinbs - this is brians username in github
+  
+  
+
+
+
+  
